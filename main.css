@@ -1,0 +1,139 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: black;
+}
+.site__main {
+}
+.hero__section {
+}
+.container {
+  width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.box {
+  width: 600px;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: yellow;
+  padding: 50px;
+}
+.site__form {
+}
+.title__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.title {
+}
+.title__reset {
+  border: none;
+  background-color: transparent;
+}
+.info__wrapper {
+  position: relative;
+  width: 600px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: #fff;
+  padding: 80px 20px 30px 20px;
+}
+.site__img__form {
+  position: absolute;
+  top: -65px;
+  border-radius: 50%;
+}
+::-webkit-input-placeholder {
+  color: #000;
+  font-weight: 600;
+  opacity: 0.7;
+}
+::-moz-placeholder {
+  color: #000;
+  font-weight: 600;
+  opacity: 0.7;
+}
+:-ms-input-placeholder {
+  color: #000;
+  font-weight: 600;
+  opacity: 0.7;
+}
+::-ms-input-placeholder {
+  color: #000;
+  font-weight: 600;
+  opacity: 0.7;
+}
+::placeholder {
+  color: #000;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.user__name__label {
+  color: #000;
+  opacity: 0.5;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 15px;
+}
+.user__name {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: 0;
+  border-bottom: 1px solid #bebbbb;
+  resize: vertical;
+}
+.surename__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #bebbbb;
+  margin-bottom: 10px;
+}
+.wrapper__first__username {
+  margin-right: 100px;
+}
+.first__name {
+  border: none;
+}
+.wrapper__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.cansel__btn {
+  border: none;
+  background-color: transparent;
+  -webkit-columns: #292929;
+     -moz-columns: #292929;
+          columns: #292929;
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 30px;
+}

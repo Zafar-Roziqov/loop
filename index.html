@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./main.css">
+  <title>loop</title>
+</head>
+<body>
+  <!-- start main  -->
+  <main class="site__main">
+    <!-- start section  -->
+    <section class="hero__section">
+      <div class="container">
+        <div class="box">
+          <form class="site__form" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="title__box">
+              <h1 class="title">Account settinges</h1>
+              <button class="title__reset" type="reset" aria-label="reset"><strong>X</strong></button>
+            </div>
+              <div class="info__wrapper">
+                <img class="site__img__form" src="./img/avatar.jpg" width="100" height="100" alt="user img">
+                <label class="user__name__label" for="username">USERNAME</label>
+                <input class="user__name" type="text" id="username" name="user__name" placeholder="Enter your username" required>
+                <div class="surename__wrapper">
+                  <div class="wrapper__first__username">
+                    <label class="user__name__label" for="first__name">FIRST NAME</label>
+                    <input class="user__name first__name" type="text" id="first__name" name="user__name__first" placeholder="Enter your first name" required>
+                  </div>
+                  <div class="wrapper__last__username">
+                    <label class="user__name__label" for="last__name">LAST NAME</label>
+                    <input class="user__name first__name" type="text" id="last__name" name="user__name__last" placeholder="Enter your last name" required>
+                  </div>
+                </div>
+                  <label class="user__name__label" for="email">EMAIL</label>
+                  <input class="user__name" type="email" name="user__name__email" id="email" placeholder="Enter your email" required>
+                  <label class="user__name__label" for="bio">BIO</label>
+                  <textarea class="user__name" name="user__name__bio" id="bio" placeholder="Tell us about yourself"></textarea>
+              </div>
+              <div class="wrapper__links">
+                <button class="cansel__btn" type="button">Cansel</button>
+                <button class="cansel__btn" type="submit">Submit</button>
+              </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- end section  -->
+  </main> 
+  <!-- end main  -->
+  
+</body>
+</html>
